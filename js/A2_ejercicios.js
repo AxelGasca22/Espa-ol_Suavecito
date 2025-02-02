@@ -66,6 +66,23 @@ function mostrarEjercicio(event, index) {
                     `;
                     contenedor.appendChild(div);
                 });
+            } else if (ejercicio.tipo === 'opcion_multiple') {
+                contenedor.innerHTML += `<p>${ejercicio.lectura}</p>`;
+                ejercicio.items.forEach((ej, itemIndex) => {
+                    const div = document.createElement("div");
+                    div.innerHTML = `
+                        <p><strong>${ej.pregunta}</strong></p>
+                        ${ej.opciones.map((opcion, opcionIndex) => `
+                            <div>
+                                <input type="radio" id="respuesta-${itemIndex}-${opcionIndex}" name="respuesta-${itemIndex}" value="${opcion}">
+                                <label for="respuesta-${itemIndex}-${opcionIndex}">${opcion}</label>
+                            </div>
+                        `).join('')}
+                        <button class="boton-verificar" onclick="verificarOpcionMultiple(${itemIndex}, '${ej.respuesta}')">Verificar</button>
+                        <p id="resultado-${itemIndex}"></p>
+                    `;
+                    contenedor.appendChild(div);
+                });
             }
             contenedor.style.display = 'block';
             document.querySelector(`.btn-contraer[onclick="contraerEjercicio(${index})"]`).style.display = 'block';
@@ -115,6 +132,23 @@ function verificar(index, respuestaCorrecta) {
     }
 
     resultado.innerHTML = resultHTML.trim();
+}
+
+function verificarOpcionMultiple(index, respuestaCorrecta) {
+    const opciones = document.getElementsByName(`respuesta-${index}`);
+    let seleccionada = '';
+    for (const opcion of opciones) {
+        if (opcion.checked) {
+            seleccionada = opcion.value;
+            break;
+        }
+    }
+    const resultado = document.getElementById(`resultado-${index}`);
+    if (seleccionada === respuestaCorrecta) {
+        resultado.innerHTML = `<span style="color: green;">Correcto</span>`;
+    } else {
+        resultado.innerHTML = `<span style="color: red;">Incorrecto.</span>`;
+    }
 }
 
 document.addEventListener("DOMContentLoaded", cargarTitulos);
