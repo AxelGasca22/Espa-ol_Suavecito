@@ -1,0 +1,159 @@
+{
+    "ejercicios": [
+        {
+            "titulo": "001 - Comprensión lectora: El Parque Nacional",
+            "tipo": "opcion_multiple",
+            "instructions": "Lee el siguiente texto y responde las preguntas seleccionando la opción correcta.",
+            "lectura": "El Parque Nacional de La Sierra es un lugar especial. Este parque está en el norte del país. Tiene montañas, ríos y muchos árboles. Los visitantes pueden ver muchos animales, como ciervos, zorros y aves. Cada año, miles de personas vienen a disfrutar de la naturaleza.\n\nEl parque tiene varios senderos. Los senderos son caminos que los visitantes pueden seguir para caminar y explorar. Hay un sendero fácil que dura una hora. Este sendero es ideal para familias con niños. También hay senderos más difíciles que duran tres o cuatro horas. En estos senderos, los caminantes ven paisajes hermosos y tranquilas cascadas.\n\nEn el Parque Nacional de La Sierra, los visitantes pueden acampar. Hay muchas áreas para poner las tiendas de campaña. Es importante seguir las reglas del parque. Por ejemplo, no se puede hacer ruido y hay que llevarse la basura. Así, los animales pueden vivir en paz.\n\nAdemás, el parque ofrece actividades educativas. Los guías turísticos organizan excursiones. En estas excursiones, los guías explican sobre las plantas y los animales. Los visitantes aprenden mucho sobre la biodiversidad de la región. La mayoría de las excursiones son por la mañana.\n\nEn verano, el clima es cálido y perfecto para visitar. Muchos turistas vienen en esta época. Ellos traen comida, agua y ropa cómoda. Algunos turistas también llevan cámaras para tomar fotos de la naturaleza. Ellos quieren recordar este momento especial.\n\nEl parque también es famoso por sus estrellas. Por la noche, el cielo está lleno de estrellas brillantes. Muchos visitantes se quedan despiertos para verlas. Mañana, los visitantes que están en el parque se despertarán temprano para ver el amanecer. Ellos disfrutarán de la belleza del paisaje.\n\nEl Parque Nacional de La Sierra es un lugar ideal para descansar y desconectar de la ciudad. Es importante cuidar la naturaleza y respetar los lugares naturales. La Sierra es un tesoro que todos deben proteger.",
+            "items": [
+                {
+                    "pregunta": "¿Dónde está el Parque Nacional de La Sierra?",
+                    "opciones": [
+                        "En el sur del país",
+                        "En el norte del país",
+                        "En la costa"
+                    ],
+                    "respuesta": "En el norte del país"
+                },
+                {
+                    "pregunta": "¿Qué animales pueden ver los visitantes en el parque?",
+                    "opciones": [
+                        "Osos, serpientes y tiburones",
+                        "Ciervos, zorros y aves",
+                        "Elefantes, jirafas y cebras"
+                    ],
+                    "respuesta": "Ciervos, zorros y aves"
+                },
+                {
+                    "pregunta": "¿Cuánto dura el sendero fácil?",
+                    "opciones": [
+                        "Una hora",
+                        "Tres horas",
+                        "Cinco horas"
+                    ],
+                    "respuesta": "Una hora"
+                },
+                {
+                    "pregunta": "¿Por qué es importante seguir las reglas del parque?",
+                    "opciones": [
+                        "Para que los visitantes se diviertan más",
+                        "Para que los animales puedan vivir en paz",
+                        "Para que las tiendas de campaña estén ordenadas"
+                    ],
+                    "respuesta": "Para que los animales puedan vivir en paz"
+                },
+                {
+                    "pregunta": "¿Qué actividades educativas ofrece el parque?",
+                    "opciones": [
+                        "Clases de cocina",
+                        "Excursiones con guías turísticos",
+                        "Talleres de pintura"
+                    ],
+                    "respuesta": "Excursiones con guías turísticos"
+                },
+                {
+                    "pregunta": "¿Qué tiempo hace en verano en el parque?",
+                    "opciones": [
+                        "Frío y lluvioso",
+                        "Cálido y perfecto para visitar",
+                        "Nevado y con tormentas"
+                    ],
+                    "respuesta": "Cálido y perfecto para visitar"
+                },
+                {
+                    "pregunta": "¿Qué hacen los visitantes por la noche?",
+                    "opciones": [
+                        "Ven la televisión en sus tiendas de campaña",
+                        "Observan las estrellas en el cielo",
+                        "Van a la ciudad a cenar"
+                    ],
+                    "respuesta": "Observan las estrellas en el cielo"
+                }
+            ]
+        },
+        {
+            "titulo": "002 - Los pasados en español, Pasado simple, imperfecto, préterito perfecto",
+            "tipo": "traduccion",
+            "instructions": "Traduce las siguientes oraciones al español.",
+            "items": [
+                { "ingles": "I visited my grandparents last weekend.", "espanol": "Visité a mis abuelos el fin de semana pasado." },
+                { "ingles": "She was reading a book when I called her.", "espanol": "Ella estaba leyendo un libro cuando la llamé." },
+                { "ingles": "They have finished their homework.", "espanol": "Ellos han terminado su tarea." },
+                { "ingles": "He played soccer every Saturday when he was a child.", "espanol": "Él jugaba fútbol todos los sábados cuando era niño." },
+                { "ingles": "We watched a movie yesterday.", "espanol": "Vimos una película ayer." },
+                { "ingles": "She has never been to Paris.", "espanol": "Ella nunca ha estado en París." },
+                { "ingles": "My family and I went to the beach last summer.", "espanol": "Mi familia y yo fuimos a la playa el verano pasado." },
+                { "ingles": "I was studying when the power went out.", "espanol": "Estaba estudiando cuando se fue la luz." },
+                { "ingles": "They have lived in this city for five years.", "espanol": "Ellos han vivido en esta ciudad por cinco años." },
+                { "ingles": "He cleaned the house on Sunday.", "espanol": "Él limpió la casa el domingo." },
+                { "ingles": "We were cooking dinner when the phone rang.", "espanol": "Estábamos cocinando la cena cuando sonó el teléfono." },
+                { "ingles": "I bought a new car last month.", "espanol": "Compré un coche nuevo el mes pasado." },
+                { "ingles": "Have you ever traveled to Italy?", "espanol": "¿Alguna vez has viajado a Italia?" },
+                { "ingles": "He was working at that company for ten years.", "espanol": "Él trabajó en esa empresa durante diez años." },
+                { "ingles": "They have seen that movie before.", "espanol": "Ellos han visto esa película antes." },
+                { "ingles": "She painted the house last year.", "espanol": "Ella pintó la casa el año pasado." },
+                { "ingles": "I was walking to school when it started to rain.", "espanol": "Estaba caminando a la escuela cuando empezó a llover." },
+                { "ingles": "They have known each other since childhood.", "espanol": "Ellos se conocen desde la infancia." },
+                { "ingles": "When I was in college, I took this same bus every day.", "espanol": "Cuando estaba en la universidad, tomaba este mismo autobús todos los días." }
+            ]
+        },
+        {
+            "titulo": "003 - Práctica de presente, futuro y pasado (Traducción)",
+            "tipo": "traduccion",
+            "instructions": "Traduce las siguientes oraciones al español.",
+            "items": [
+                { "ingles": "She reads a book every evening.", "espanol": "Ella lee un libro cada noche." },
+                { "ingles": "They usually go to the gym after work.", "espanol": "Ellos usualmente van al gimnasio después del trabajo." },
+                { "ingles": "I will call you tomorrow.", "espanol": "Yo te llamaré mañana." },
+                { "ingles": "He will start his new job next month.", "espanol": "Él comenzará su trabajo nuevo el próximo mes." },
+                { "ingles": "If it rains, we would stay inside.", "espanol": "Si llueve, nos quedaríamos dentro." },
+                { "ingles": "She visited her cousin last weekend.", "espanol": "Ella visitó a su primo el fin de semana pasado." },
+                { "ingles": "We watched a documentary last night.", "espanol": "Nosotros vimos un documental anoche." },
+                { "ingles": "I have finished reading the book.", "espanol": "Yo he terminado de leer el libro." },
+                { "ingles": "They have finished the report.", "espanol": "Ellos han terminado el reporte." },
+                { "ingles": "I bought a gift for my sister’s birthday.", "espanol": "Yo compré un regalo para el cumpleaños de mi hermana." },
+                { "ingles": "She works hard.", "espanol": "Ella trabaja duro." },
+                { "ingles": "We walked through the park for an hour this morning.", "espanol": "Nosotros caminamos por el parque por una hora esta mañana." },
+                { "ingles": "I paid $20 for the ticket.", "espanol": "Yo pagué $20 por el boleto." },
+                { "ingles": "He was recognized for his hard work.", "espanol": "Él fue reconocido por su trabajo duro." },
+                { "ingles": "This letter is for you.", "espanol": "Esta carta es para ti." },
+                { "ingles": "She saved money to buy a new laptop.", "espanol": "Ella ahorró dinero para comprar una computadora nueva." },
+                { "ingles": "He is studying hard to pass the exam.", "espanol": "Él está estudiando duro para pasar el examen." },
+                { "ingles": "She has been reading the same book for months.", "espanol": "Ella ha estado leyendo el mismo libro por meses." },
+                { "ingles": "When I was a child, I played outside every day.", "espanol": "Cuando yo era niño, jugaba afuera cada día." },
+                { "ingles": "We were always happy when we went on vacation.", "espanol": "Nosotros estábamos siempre felices cuando íbamos de vacaciones." },
+                { "ingles": "He was reading a book while he waited for the bus.", "espanol": "Él estaba leyendo un libro mientras él esperaba por el autobús." },
+                { "ingles": "They have arrived at the airport.", "espanol": "Ellos han llegado al aeropuerto." },
+                { "ingles": "I have never tried sushi before.", "espanol": "Yo nunca he probado sushi antes." },
+                { "ingles": "She studied French in high school.", "espanol": "Ella estudiaba francés en la preparatoria." },
+                { "ingles": "They traveled to Greece last year.", "espanol": "Ellos viajaron a Grecia el año pasado." }
+            ]
+        },
+        {
+            "titulo": "004 - Pronombres de objeto directo e indirecto (Traducción)",
+            "tipo": "traduccion",
+            "instructions": "Traduce las siguientes oraciones al español.",
+            "items": [
+                { "ingles": "I give him the book.", "espanol": "Le doy el libro." },
+                { "ingles": "She reads it to the children.", "espanol": "Se lo lee a los niños." },
+                { "ingles": "They show her the painting.", "espanol": "Le muestran la pintura." },
+                { "ingles": "We buy them food.", "espanol": "Les compramos comida." },
+                { "ingles": "He loves her very much.", "espanol": "La ama mucho." },
+                { "ingles": "You tell me the story.", "espanol": "Me cuentas la historia." },
+                { "ingles": "I see it in the park.", "espanol": "Lo veo en el parque." },
+                { "ingles": "She calls him on weekends.", "espanol": "Lo llama los fines de semana." },
+                { "ingles": "They invite us to the party.", "espanol": "Nos invitan a la fiesta." },
+                { "ingles": "We teach them how to play.", "espanol": "Les enseñamos a jugar." },
+                { "ingles": "I will give her the keys.", "espanol": "Le daré las llaves." },
+                { "ingles": "He will buy it for you.", "espanol": "Te lo comprará." },
+                { "ingles": "They will send us an email.", "espanol": "Nos enviarán un correo electrónico." },
+                { "ingles": "She will show him the photos.", "espanol": "Le mostrará las fotos." },
+                { "ingles": "We will call you tomorrow.", "espanol": "Te llamaremos mañana." },
+                { "ingles": "You will tell them the news.", "espanol": "Les contarás la noticia." },
+                { "ingles": "I will make it for dinner.", "espanol": "Lo haré para la cena." },
+                { "ingles": "She will read it to the children.", "espanol": "Se lo leerá a los niños." },
+                { "ingles": "I will explain it to you.", "espanol": "Te lo explicaré." }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "ejercicios": [
+        {
+            "titulo": "001 - Bien - Bueno",
+            "tipo": "acompletar",
+            "instructions": "Completa las oraciones con “bien” o “bueno (a)”.",
+            "items": [
+              { "oracion": "María canta muy ___ en la clase de música.", "respuesta": "bien" },
+              { "oracion": "Este libro es muy ___; me gusta mucho.", "respuesta": "bueno" },
+              { "oracion": "Estoy ___, gracias por preguntar.", "respuesta": "bien" },
+              { "oracion": "Tu presentación fue ___, muy clara y organizada.", "respuesta": "buena" },
+              { "oracion": "La comida en este restaurante es ___.", "respuesta": "buena" },
+              { "oracion": "¿Te sientes ___ hoy?", "respuesta": "bien" },
+              { "oracion": "La película que vimos anoche fue ___.", "respuesta": "buena" },
+              { "oracion": "Ellos trabajan ___ en equipo.", "respuesta": "bien" },
+              { "oracion": "Es un ___ día para salir al parque.", "respuesta": "buen" },
+              { "oracion": "El examen salió ___, creo que aprobaré.", "respuesta": "bien" },
+              { "oracion": "La tarea que hiciste es ___; tiene muchos detalles.", "respuesta": "buena" },
+              { "oracion": "Siempre estudias ___ para tus exámenes.", "respuesta": "bien" },
+              { "oracion": "Ese es un ___ lugar para visitar en vacaciones.", "respuesta": "buen" },
+              { "oracion": "¿Cómo te fue en el examen? — Me fue ___.", "respuesta": "bien" },
+              { "oracion": "La música en esa fiesta estaba ___; todos bailaron.", "respuesta": "buena" },
+              { "oracion": "Ella es una ___ amiga; siempre me ayuda.", "respuesta": "buena" },
+              { "oracion": "¿Cómo te sientes? — Me siento ___.", "respuesta": "bien" },
+              { "oracion": "Este ejercicio es muy ___ para aprender español.", "respuesta": "bueno" },
+              { "oracion": "Sus consejos son muy ___; siempre me ayudan.", "respuesta": "buenos" },
+              { "oracion": "Estoy ___ con los resultados del proyecto.", "respuesta": "bien" }
+            ]
+        },
+        {
+            "titulo": "002 - Presente de subjuntivo (Traducción)",
+            "tipo": "traduccion",
+            "instructions": "Traduce al español las siguientes oraciones.",
+            "items": [
+              { "ingles": "I hope that you come to the party tomorrow.", "espanol": "Espero que vengas a la fiesta mañana." },
+              { "ingles": "It's important that he be on time for the meeting.", "espanol": "Es importante que él llegue a tiempo a la reunión." },
+              { "ingles": "I wish that you were here with me right now.", "espanol": "Deseo que estés aquí conmigo ahora mismo." },
+              { "ingles": "They want us to go to their house for dinner.", "espanol": "Quieren que vayamos a su casa a cenar." },
+              { "ingles": "It's necessary that we finish the project by Friday.", "espanol": "Es necesario que terminemos el proyecto para el viernes." },
+              { "ingles": "I don't think that she knows the truth.", "espanol": "No creo que ella sepa la verdad." },
+              { "ingles": "I doubt that they will arrive on time.", "espanol": "Dudo que ellos lleguen a tiempo." },
+              { "ingles": "It bothers me that you don't listen to me.", "espanol": "Me molesta que no me escuches." },
+              { "ingles": "I'm looking for a person who can speak Spanish fluently.", "espanol": "Busco a una persona que pueda hablar español con fluidez." },
+              { "ingles": "I recommend that you study hard for the exam.", "espanol": "Recomiendo que estudies mucho para el examen." },
+              { "ingles": "She asks that you call her when you arrive.", "espanol": "Ella pide que la llames cuando llegues." },
+              { "ingles": "I hope it doesn't rain tomorrow.", "espanol": "Espero que no llueva mañana." },
+              { "ingles": "I'm happy that you have passed the test.", "espanol": "Me alegra que hayas aprobado el examen." },
+              { "ingles": "It's possible that they might cancel the event.", "espanol": "Es posible que cancelen el evento." },
+              { "ingles": "I don't think he wants to go to the concert.", "espanol": "No creo que él quiera ir al concierto." },
+              { "ingles": "It's strange that she didn't say anything.", "espanol": "Es extraño que ella no haya dicho nada." },
+              { "ingles": "We are looking for someone who is responsible and punctual.", "espanol": "Buscamos a alguien que sea responsable y puntual." }
+            ]
+        },
+        {
+            "titulo": "003 - Pronombres de objeto directo e indirecto (Traducción)",
+            "tipo": "traduccion",
+            "instructions": "Traduce al español las siguientes oraciones.",
+            "items": [
+              { "ingles": "I saw him at the store yesterday.", "espanol": "Lo vi en la tienda ayer." },
+              { "ingles": "Did you tell him the news?", "espanol": "¿Le dijiste las noticias?" },
+              { "ingles": "He forgot to bring it to her.", "espanol": "Él olvidó traérsela." },
+              { "ingles": "We are waiting for him at the bus stop.", "espanol": "Nosotros estamos esperándolo en la parada de autobús." },
+              { "ingles": "She has finished it for him.", "espanol": "Ella lo ha terminado para él." },
+              { "ingles": "I heard her singing at the concert.", "espanol": "Yo la escuché cantando en el concierto." },
+              { "ingles": "They invited him to the party last week.", "espanol": "Ellos lo invitaron a la fiesta la semana pasada." },
+              { "ingles": "Did you show her the pictures?", "espanol": "¿Le mostraste las fotos?" },
+              { "ingles": "I will give it to him tomorrow.", "espanol": "Yo se lo daré mañana." },
+              { "ingles": "She didn’t understand it at first.", "espanol": "Ella no lo entendió a la primera." },
+              { "ingles": "He asked her if she needed help.", "espanol": "Él le preguntó si necesita ayuda." },
+              { "ingles": "We will tell him about the changes.", "espanol": "Nosotros le diremos de los cambios." },
+              { "ingles": "I have already sent it to her.", "espanol": "Yo ya se la envié." },
+              { "ingles": "Did you see him at the meeting?", "espanol": "¿Lo viste en la reunión?" },
+              { "ingles": "She forgot to call him last night.", "espanol": "Ella olvidó llamarlo anoche." },
+              { "ingles": "I can’t believe that she didn’t invite him!", "espanol": "¡No puedo creer que ella no lo invitó!" },
+              { "ingles": "They promised to help her with the homework.", "espanol": "Ellos prometieron ayudarla con la tarea." },
+              { "ingles": "He showed it to her during the presentation.", "espanol": "Él se lo mostró durante la presentación." },
+              { "ingles": "I told him that I would see her later.", "espanol": "Le dije que la vería más tarde." },
+              { "ingles": "She has been waiting him all day.", "espanol": "Ella ha estado esperándolo todo el día." },
+              { "ingles": "Did you explain it to her good/fine/well?", "espanol": "¿Se lo explicaste bien?" },
+              { "ingles": "He found it and gave it to her.", "espanol": "Él lo encontró y se lo dio." },
+              { "ingles": "I will remind him about the appointment.", "espanol": "Yo le recordaré de la cita." },
+              { "ingles": "She didn't recognize him in the crowd.", "espanol": "Ella no lo reconoció en la multitud." }
+            ]
+          },
+          {
+            "titulo": "004 - Verbos de cambio",
+            "tipo": "acompletar",
+            "instructions": "Completa las oraciones con la forma correcta del verbo de cambio.",
+            "items": [
+              { "oracion": "Después de la discusión, se ___ muy distante.", "respuesta": "volvió" },
+              { "oracion": "Juan se ___ médico después de muchos años de estudio.", "respuesta": "hizo" },
+              { "oracion": "Al escuchar la noticia, se ___ muy feliz.", "respuesta": "puso" },
+              { "oracion": "Después de la película, nos ___ a hablar.", "respuesta": "pusimos" },
+              { "oracion": "Con el tiempo, se ___ un experto en su campo.", "respuesta": "hizo" },
+              { "oracion": "Ella se ___ famosa por su talento.", "respuesta": "hizo" },
+              { "oracion": "Se ___ nervioso antes de hablar en público.", "respuesta": "puso" },
+              { "oracion": "Se ___ en casa porque estaba enfermo.", "respuesta": "quedó" },
+              { "oracion": "Cuando llegó el invierno, se ___ un abrigo nuevo.", "respuesta": "puso" },
+              { "oracion": "Al mudarse, se ___ amiga de sus vecinos.", "respuesta": "hizo" },
+              { "oracion": "La situación se ___ complicada rápidamente.", "respuesta": "puso" },
+              { "oracion": "Con el esfuerzo, se ___ dueño de su propia empresa.", "respuesta": "hizo" },
+              { "oracion": "Con la práctica, se ___ un gran cocinero.", "respuesta": "hizo" },
+              { "oracion": "Cuando perdió el partido, se ___ triste.", "respuesta": "puso" },
+              { "oracion": "Al escuchar su canción favorita, se ___ a bailar.", "respuesta": "puso" },
+              { "oracion": "Después de la tormenta, se ___ en casa para descansar.", "respuesta": "quedó" },
+              { "oracion": "Su carácter se ___ más amable con el tiempo.", "respuesta": "volvió" }
+            ]
+          }
+    ]
+}

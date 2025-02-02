@@ -1,0 +1,242 @@
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+header {
+    background-color: #53ada6;
+    /*#4CAF50;*/
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.cuerpo{
+    padding: 70px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #53ada6;
+}
+
+.perfil-imagen{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid #53ada6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-mi {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre-mi p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Mantiene el color del texto */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+/********************PAGINAS DEL CURSO**********************/
+
+.boton-verificar {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 5px 10px; /* Relleno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    border-radius: 12px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.boton-verificar:hover {
+    background-color: #295e2c; /* Color de fondo al pasar el cursor */
+}
+
+.texto-respuesta {
+    width: 100%; /* Ancho completo */
+    padding: 12px 20px; /* Relleno */
+    margin: 8px 0; /* Margen */
+    box-sizing: border-box; /* Incluir padding y border en el tamaño total */
+    border: 2px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 18px; /* Tamaño de fuente */
+    resize: vertical; /* Permitir redimensionar verticalmente */
+    transition: border-color 0.3s ease; /* Transición suave para el cambio de color del borde */
+}
+
+.texto-respuesta:focus {
+    border-color: #4CAF50; /* Color del borde al enfocar */
+    outline: none; /* Eliminar el borde de enfoque predeterminado */
+}
+
+/***********++CARDS************/
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25em;
+    margin-bottom: 8px;
+}
+
+.card-body {
+    margin-bottom: 8px;
+}
+
+.card a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #0056b3;
+}
+
+.btn-contraer {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.btn-contraer:hover {
+    background-color: #c82333;
+}

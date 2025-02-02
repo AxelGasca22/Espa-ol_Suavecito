@@ -1,0 +1,61 @@
+{
+    "ejercicios": [
+        {
+            "titulo": "001- Unión de verbos",
+            "tipo": "traduccion",
+            "instructions": "Traduce las siguientes oraciones al español.",
+            "items": [
+                { "ingles": "I have to study.", "espanol": "Yo tengo que estudiar." },
+                { "ingles": "She needs to buy a new book.", "espanol": "Ella necesita comprar un nuevo libro." },
+                { "ingles": "I have a book on the table.", "espanol": "Yo tengo un libro en la mesa." },
+                { "ingles": "She makes a cake every Sunday.", "espanol": "Ella hace una tarta cada Domingo." },
+                { "ingles": "We want to go to the beach tomorrow.", "espanol": "Nosotros queremos ir a la playa mañana." },
+                { "ingles": "They can speak three languages.", "espanol": "Ellos pueden hablar tres lenguas." },
+                { "ingles": "He comes to the gym every day.", "espanol": "Él viene al gimnasio cada día." },
+                { "ingles": "You go to school.", "espanol": "Tú vas a la escuela." },
+                { "ingles": "She has a new phone.", "espanol": "Ella tiene un nuevo teléfono." },
+                { "ingles": "We make dinner together on Fridays.", "espanol": "Hacemos la cena juntos los viernes." },
+                { "ingles": "They want to visit their grandparents.", "espanol": "Quieren visitar a sus abuelos." },
+                { "ingles": "I can swim very well.", "espanol": "Puedo nadar muy bien." },
+                { "ingles": "He comes from a small town.", "espanol": "Él viene de un pueblo pequeño." },
+                { "ingles": "She goes to work at 9 AM.", "espanol": "Ella va al trabajo a las 9 AM." },
+                { "ingles": "We have a meeting in the afternoon.", "espanol": "Tenemos una reunión en la tarde." },
+                { "ingles": "They make music every evening.", "espanol": "Hacen música todas las noches." },
+                { "ingles": "I want to learn how to cook Italian food.", "espanol": "Quiero aprender a cocinar comida italiana." },
+                { "ingles": "You can finish the project.", "espanol": "Puedes terminar el proyecto." },
+                { "ingles": "She comes to my house on weekends.", "espanol": "Ella viene a mi casa los fines de semana." },
+                { "ingles": "We go to the park after school.", "espanol": "Vamos al parque después de la escuela." },
+                { "ingles": "He has a lot of homework today.", "espanol": "Él tiene mucha tarea hoy." },
+                { "ingles": "They want to travel to Japan next year.", "espanol": "Quieren viajar a Japón el próximo año." }
+            ]
+        },
+        {
+            "titulo": "002- Verbos irregulares más comunes",
+            "tipo": "traduccion",
+            "instructions": "Traduce las siguientes oraciones al español.",
+            "items": [
+                { "ingles": "I have a book on the table.", "espanol": "Yo tengo un libro en la mesa." },
+                { "ingles": "She makes a cake every Sunday.", "espanol": "Ella hace una tarta cada Domingo." },
+                { "ingles": "We want to go to the beach tomorrow.", "espanol": "Nosotros queremos ir a la playa mañana." },
+                { "ingles": "They can speak three languages.", "espanol": "Ellos pueden hablar tres lenguas." },
+                { "ingles": "He comes to the gym every day.", "espanol": "Él viene al gimnasio cada día." },
+                { "ingles": "You go to school.", "espanol": "Tú vas a la escuela." },
+                { "ingles": "She has a new phone.", "espanol": "Ella tiene un nuevo teléfono." },
+                { "ingles": "We make dinner together on Fridays.", "espanol": "Hacemos la cena juntos los viernes." },
+                { "ingles": "They want to visit their grandparents.", "espanol": "Quieren visitar a sus abuelos." },
+                { "ingles": "I can swim very well.", "espanol": "Puedo nadar muy bien." },
+                { "ingles": "He comes from a small town.", "espanol": "Él viene de un pueblo pequeño." },
+                { "ingles": "She goes to work at 9 AM.", "espanol": "Ella va al trabajo a las 9 AM." },
+                { "ingles": "We have a meeting in the afternoon.", "espanol": "Tenemos una reunión en la tarde." },
+                { "ingles": "They make music every evening.", "espanol": "Hacen música todas las noches." },
+                { "ingles": "I want to learn how to cook Italian food.", "espanol": "Quiero aprender a cocinar comida italiana." },
+                { "ingles": "You can finish the project.", "espanol": "Puedes terminar el proyecto." },
+                { "ingles": "She comes to my house on weekends.", "espanol": "Ella viene a mi casa los fines de semana." },
+                { "ingles": "We go to the park after school.", "espanol": "Vamos al parque después de la escuela." },
+                { "ingles": "He has a lot of homework today.", "espanol": "Él tiene mucha tarea hoy." },
+                { "ingles": "They want to travel to Japan next year.", "espanol": "Quieren viajar a Japón el próximo año." }
+            ]
+        }
+    ]
+  }
+  
