@@ -1,6 +1,6 @@
 async function cargarTitulos() {
     try {
-        const response = await fetch('json/A1.json');
+        const response = await fetch('json/C2.json');
         const data = await response.json();
         mostrarTitulos(data);
     } catch (error) {
@@ -36,7 +36,7 @@ function mostrarTitulos(data) {
 function mostrarEjercicio(event, index) {
     event.preventDefault();
     
-    fetch('json/A1.json')
+    fetch('json/C2.json')
         .then(response => response.json())
         .then(data => {
             const ejercicio = data.ejercicios[index];
