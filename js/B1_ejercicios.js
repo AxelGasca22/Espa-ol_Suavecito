@@ -66,6 +66,23 @@ function mostrarEjercicio(event, index) {
                     `;
                     contenedor.appendChild(div);
                 });
+            } else if (ejercicio.tipo === 'opcion_multiple') {
+                contenedor.innerHTML += `<p>${ejercicio.lectura}</p>`;
+                ejercicio.items.forEach((ej, itemIndex) => {
+                    const div = document.createElement("div");
+                    div.innerHTML = `
+                        <p><strong>${ej.pregunta}</strong></p>
+                        ${ej.opciones.map((opcion, opcionIndex) => `
+                            <div>
+                                <input type="radio" id="respuesta-${index}-${itemIndex}-${opcionIndex}" name="respuesta-${index}-${itemIndex}" value="${opcion}">
+                                <label for="respuesta-${index}-${itemIndex}-${opcionIndex}">${opcion}</label>
+                            </div>
+                        `).join('')}
+                        <button class="boton-verificar" onclick="verificarOpcionMultiple(${index}, ${itemIndex}, '${ej.respuesta}')">Verificar</button>
+                        <p id="resultado-${index}-${itemIndex}"></p>
+                    `;
+                    contenedor.appendChild(div);
+                });
             }
             contenedor.style.display = 'block';
             document.querySelector(`.btn-contraer[onclick="contraerEjercicio(${index})"]`).style.display = 'block';
